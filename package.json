@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "koa": "^1.2.4"
+  }
+}
