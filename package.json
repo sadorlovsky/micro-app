@@ -1,9 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node --harmony-async-await node_modules/.bin/micro server.js"
   },
   "dependencies": {
-    "koa": "^1.2.4"
+    "micro": "^6.2.1"
   }
 }

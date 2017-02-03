@@ -1,9 +1,6 @@
-const koa = require('koa')
+const { send }  = require('micro')
 
-const app = koa()
+module.exports = async (req, res) => {
+  send(res, 200, '▲')
+}
 
-app.use(function* () {
-  this.body = '▲'
-})
-
-app.listen(3017)
