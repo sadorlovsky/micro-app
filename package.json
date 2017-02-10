@@ -1,5 +1,7 @@
 {
   "private": true,
+  "name": "micro-app",
+  "main": "server.js",
   "scripts": {
     "start": "node --harmony-async-await node_modules/.bin/micro server.js"
   },
