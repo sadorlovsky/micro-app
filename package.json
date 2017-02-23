@@ -3,12 +3,18 @@
   "name": "micro-app",
   "main": "server.js",
   "scripts": {
-    "start": "micro"
+    "start": "micro",
+    "test": "ava"
   },
   "engines": {
     "node": ">=7.6.0"
   },
   "dependencies": {
     "micro": "^7.0.6"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "got": "^6.7.1",
+    "test-listen": "^1.0.1"
   }
 }
