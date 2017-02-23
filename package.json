@@ -3,7 +3,10 @@
   "name": "micro-app",
   "main": "server.js",
   "scripts": {
-    "start": "node --harmony-async-await node_modules/.bin/micro server.js"
+    "start": "micro"
+  },
+  "engines": {
+    "node": ">=7.6.0"
   },
   "dependencies": {
     "micro": "^7.0.6"
