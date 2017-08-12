@@ -7,14 +7,14 @@
     "test": "ava"
   },
   "engines": {
-    "node": ">=7.6.0"
+    "node": ">=8"
   },
   "dependencies": {
-    "micro": "^7.0.6"
+    "micro": "^8.0.2"
   },
   "devDependencies": {
-    "ava": "^0.18.2",
-    "got": "^6.7.1",
-    "test-listen": "^1.0.1"
+    "ava": "^0.21.0",
+    "got": "^7.1.0",
+    "test-listen": "^1.0.2"
   }
 }
