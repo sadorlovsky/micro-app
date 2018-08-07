@@ -1,0 +1,5 @@
+image: node:8-alpine
+
+test:
+  script:
+    - yarn test
